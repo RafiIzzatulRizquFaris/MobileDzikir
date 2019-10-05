@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="18dp"
+    android:background="@drawable/bg_niatpuasa"
+    tools:context="tech.toughput.mobiledzikir.Witir1Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="Niat Shalat Witir 1 Raka'at"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:textStyle="bold"
+                android:textSize="26dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/witir1"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/latinwtr1"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/artiwtr1"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:text="Niat Shalat Witir 2 Raka'at"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:textStyle="bold"
+                android:textSize="26dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/witir2"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/latinwtr2"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/artiwtr2"
+                android:textAlignment="center"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:text="Niat Shalat Witir 3 Raka'at"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:textStyle="bold"
+                android:textSize="26dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/witir3"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/latinwtr3"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/artiwtr3"
+                android:textAlignment="center"/>
+
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textSize="17dp"-->
+            <!--android:fontFamily="sans-serif"-->
+            <!--android:text="Allahumma laka shumtu wa bika amantu wa'ala rizqika afthartu. Birrahmatika yaa arhamar roohimin."-->
+            <!--android:textAlignment="center"/>-->
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:textStyle="italic"-->
+            <!--android:textSize="16dp"-->
+            <!--android:fontFamily="sans-serif"-->
+            <!--android:text="Artinya : Ya Allah, untukMu aku berpuasa, dan kepadaMu aku beriman, dan dengan rezekiMu aku berbuka. Dengan rahmatMu wahai yang Maha Pengasih dan Penyayang."-->
+            <!--android:textAlignment="center"/>-->
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_doa"
+    tools:context="tech.toughput.mobiledzikir.DoaActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:text="Doa / Niat Puasa"
+                android:textSize="18dp"
+                android:textAllCaps="false"
+                android:layout_width="316dp"
+                android:layout_height="68dp"
+                android:layout_marginBottom="32dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/btn_niatdoa"
+                app:layout_constraintBottom_toTopOf="@+id/button2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/button2"
+                android:text="Doa / Niat Berbuka Puasa"
+                android:textSize="18dp"
+                android:textAllCaps="false"
+                android:layout_width="316dp"
+                android:layout_height="68dp"
+                android:layout_marginBottom="32dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="21dp"
+                android:background="@drawable/btn_niatdoa"
+                app:layout_constraintBottom_toTopOf="@+id/button3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints" />
+            <Button
+                android:id="@+id/button3"
+                android:text="Doa / Niat Shalat Tarawih"
+                android:textSize="18dp"
+                android:textAllCaps="false"
+                android:layout_width="316dp"
+                android:layout_height="68dp"
+                android:layout_marginBottom="32dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="21dp"
+                android:background="@drawable/btn_niatdoa"
+                app:layout_constraintBottom_toTopOf="@+id/button4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/button4"
+                android:text="Niat Shalat Witir"
+                android:textSize="18dp"
+                android:textAllCaps="false"
+                android:layout_width="316dp"
+                android:layout_height="68dp"
+                android:layout_marginBottom="32dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="21dp"
+                android:background="@drawable/btn_niatdoa"
+                app:layout_constraintBottom_toTopOf="@+id/button5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints" />
+
+
+            <Button
+                android:id="@+id/button5"
+                android:text="Doa / Niat Diam (I'tikaf)"
+                android:textSize="18dp"
+                android:textAllCaps="false"
+                android:layout_width="316dp"
+                android:layout_height="68dp"
+                android:layout_marginBottom="32dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="21dp"
+                android:background="@drawable/btn_niatdoa"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints" />
+
+
+            <Button
+                android:id="@+id/button6"
+                android:text="Doa Malam Lailatul Qadar"
+                android:textSize="18dp"
+                android:textAllCaps="false"
+                android:layout_width="316dp"
+                android:layout_height="68dp"
+                android:layout_marginBottom="32dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="21dp"
+                android:background="@drawable/btn_niatdoa"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
